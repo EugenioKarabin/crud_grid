@@ -1,0 +1,24 @@
+.contenedor {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.contenedor .cabecera {
+	display: grid;
+	grid-template-columns: 100px 1fr 1fr 200px 100px 100px;
+}
+
+.contenedor #contenido {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(6, 50px);
+}
+
+.contenedor #contenido .cliente {
+	display: grid;
+	grid-template-columns: 100px 1fr 1fr 200px 100px 100px;
+}
+
+.contenedor .paginacion {
+	display: grid;
+	grid-template-columns: 1fr;
+}
